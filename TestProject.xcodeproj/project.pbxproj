@@ -14,6 +14,7 @@
 		2E4CD0091FBACED800210EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4CD0071FBACED800210EDC /* LaunchScreen.storyboard */; };
 		2E4CD0141FBACED800210EDC /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CD0131FBACED800210EDC /* TestProjectTests.swift */; };
 		2E4CD01F1FBACED800210EDC /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CD01E1FBACED800210EDC /* TestProjectUITests.swift */; };
+		2E4CD02D1FBAD83800210EDC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CD02C1FBAD83800210EDC /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2E4CD01A1FBACED800210EDC /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4CD01E1FBACED800210EDC /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		2E4CD0201FBACED800210EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4CD02C1FBAD83800210EDC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				2E4CCFFE1FBACED800210EDC /* AppDelegate.swift */,
 				2E4CD0001FBACED800210EDC /* ViewController.swift */,
 				2E4CD0021FBACED800210EDC /* Main.storyboard */,
+				2E4CD02C1FBAD83800210EDC /* SecondViewController.swift */,
 				2E4CD0051FBACED800210EDC /* Assets.xcassets */,
 				2E4CD0071FBACED800210EDC /* LaunchScreen.storyboard */,
 				2E4CD00A1FBACED800210EDC /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4CD02D1FBAD83800210EDC /* SecondViewController.swift in Sources */,
 				2E4CD0011FBACED800210EDC /* ViewController.swift in Sources */,
 				2E4CCFFF1FBACED800210EDC /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWW3MKV2A2;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.havok.aravi.TestProject;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWW3MKV2A2;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.havok.aravi.TestProject;
